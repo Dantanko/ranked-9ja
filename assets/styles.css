@@ -1,7 +1,7 @@
 :root{--ink:#12201f;--bg:#f6f8f7;--teal:#0d5a55;--mint:#e3f1ee;--amber:#f0b25a;--amberd:#8a5200;--mu:#44504f;--line:#e3e9e7}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Figtree",system-ui,-apple-system,"Segoe UI",sans-serif}
-h1,h2,h3,.brand{font-family:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3,.brand{font-family:"DM Sans",system-ui,sans-serif}
 h1,h2,h3{margin:0;line-height:1.12;font-weight:700}
 a{color:var(--teal)}
 :focus-visible{outline:3px solid var(--amber);outline-offset:3px}
@@ -31,7 +31,7 @@ a{color:var(--teal)}
 .sec h2{font-size:1.85rem;margin-bottom:1.3rem}
 .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .tile{background:#fff;border-radius:26px;padding:1.7rem;box-shadow:0 6px 24px rgba(13,90,85,.08)}
-.tile i{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--mint);color:var(--teal);font:700 1.15rem "Bricolage Grotesque",sans-serif;font-style:normal;margin-bottom:.9rem}
+.tile i{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--mint);color:var(--teal);font:700 1.15rem "DM Sans",sans-serif;font-style:normal;margin-bottom:.9rem}
 .tile h3{font-size:1.2rem;margin-bottom:.45rem}
 .tile p{margin:0;color:var(--mu);font-size:.97rem}
 .chips{display:flex;gap:.6rem;flex-wrap:wrap;margin:0 0 1.6rem}
@@ -47,9 +47,9 @@ a{color:var(--teal)}
 .info h3 a{color:inherit}
 .stars{color:#c77a00}
 .meta{font-size:.94rem;color:var(--mu);margin:.3rem 0 0}
-.tag{display:inline-block;background:#fff3dc;color:var(--amberd);font-size:.72rem;font-weight:700;padding:.15rem .65rem;border-radius:999px;margin-left:.5rem;vertical-align:middle;font-family:"Figtree",sans-serif}
+.tag{display:inline-block;background:#fff3dc;color:var(--amberd);font-size:.72rem;font-weight:700;padding:.15rem .65rem;border-radius:999px;margin-left:.5rem;vertical-align:middle;font-family:"DM Sans",sans-serif}
 .score{width:76px;height:76px;border-radius:50%;background:var(--teal);color:#fff;display:grid;place-content:center;text-align:center;flex:none}
-.score b{font:700 1.8rem/1 "Bricolage Grotesque",sans-serif}
+.score b{font:700 1.8rem/1 "DM Sans",sans-serif}
 .score span{font-size:.62rem;color:#cfe9e5;letter-spacing:.6px}
 details{flex:1 0 100%;border-top:1px solid var(--line);padding-top:1rem}
 summary{cursor:pointer;color:var(--teal);font-weight:700}
@@ -72,3 +72,23 @@ footer{margin-top:3rem;padding:2rem 0 3rem;color:var(--mu);font-size:.95rem}
 footer a{margin-right:1.3rem;color:var(--mu)}
 @media (max-width:760px){.hero{grid-template-columns:1fr}.tiles{grid-template-columns:1fr}.hero img{max-width:420px}}
 @media (max-width:520px){.break li{grid-template-columns:6.4rem 1fr 3rem}.top{border-radius:0 0 30px 30px}}
+
+/* Less rounded, photo hero */
+.top{border-radius:0 0 22px 22px}
+.search{border-radius:14px}
+.search a{border-radius:10px}
+.btn{border-radius:10px}
+.chips button{border-radius:10px}
+.card{border-radius:16px}
+.ph{border-radius:12px}
+.score{border-radius:14px;width:72px;height:72px}
+.tile{border-radius:16px}
+.tile i{border-radius:12px}
+.sponsor{border-radius:16px}
+table{border-radius:14px}
+.tag{border-radius:6px}
+.bar2,.bar2 span{border-radius:6px}
+.top nav a{border-radius:10px}
+.hero-photo{width:100%;min-height:340px;border-radius:16px;background:#b9dcd6 url(hero.jpg) center/cover no-repeat}
+@media (max-width:760px){.hero-photo{min-height:220px}}
+@media (max-width:520px){.top{border-radius:0 0 18px 18px}}
