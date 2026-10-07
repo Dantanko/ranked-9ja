@@ -118,3 +118,13 @@ table{border-radius:14px}
 .chips-sm a:hover{background:var(--mint)}
 .cat.muted{background:transparent;box-shadow:none;border:1.5px dashed #bcc8c5}
 @media (max-width:760px){.cats{grid-template-columns:1fr}.center{padding:3rem 0 3.2rem}}
+
+.spec{display:flex;gap:.4rem;flex-wrap:wrap;margin:.7rem 0 0}
+.spec span{background:var(--mint);color:var(--teal);font-size:.8rem;font-weight:500;padding:.2rem .65rem;border-radius:6px}
+.break li{grid-template-columns:9.6rem 1fr 3.4rem}
+@media (max-width:520px){.break li{grid-template-columns:7.4rem 1fr 3rem}}
+
+.score.off{background:#5a6b69}
+.score.off b{font-size:1.5rem}
+.score.off span{font-size:.55rem;color:#e3f1ee}
+.sub{font-size:1.4rem;margin:2.4rem 0 .4rem}
