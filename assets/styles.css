@@ -128,3 +128,8 @@ table{border-radius:14px}
 .score.off b{font-size:1.5rem}
 .score.off span{font-size:.55rem;color:#e3f1ee}
 .sub{font-size:1.4rem;margin:2.4rem 0 .4rem}
+
+.kind{display:inline-block;font-size:.72rem;font-weight:700;padding:.15rem .6rem;border-radius:6px;background:var(--mint);color:var(--teal);margin-bottom:.5rem}
+.kind.guest{background:#fff3dc;color:var(--amberd)}
+.byline{color:var(--mu);font-size:.95rem;margin:.4rem 0 0}
+.box{background:var(--mint);border-radius:16px;padding:1.2rem 1.4rem;margin:1.4rem 0}

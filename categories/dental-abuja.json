@@ -1,0 +1,37 @@
+{
+  "slug": "dental-abuja",
+  "label": "Dental clinics",
+  "singular": "clinic",
+  "city": "Abuja",
+  "icon": "tooth.svg",
+  "description": "Compare dental clinics in Abuja on public ratings, how they respond, specialist services, safety and how openly they publish prices and hours.",
+  "min_verified_reviews": 10,
+  "gates": [
+    {"id": "registration", "label": "We have verified that a practitioner there is registered with the Medical and Dental Council of Nigeria."}
+  ],
+  "measures": [
+    {"id": "rating", "label": "Public rating", "type": "rating", "weight": 20, "prior_count": 20, "prior_rating": 4.0,
+     "note": "Three reviews of 5 stars should not beat three hundred reviews averaging 4.7."},
+    {"id": "volume", "label": "Number of reviews", "type": "banded", "from": "rating.count",
+     "bands": [[100, 10], [50, 8], [20, 5], [10, 3]]},
+    {"id": "recent", "label": "Recent reviews", "type": "banded",
+     "bands": [[10, 10], [5, 7], [1, 3]],
+     "note": "We count reviews from the last 6 months."},
+    {"id": "responsiveness", "label": "Responsiveness", "type": "flags", "items": [
+      {"id": "replied", "points": 7, "label": "the clinic has replied to at least half of its last 10 reviews"},
+      {"id": "enquiry", "points": 8, "label": "it answers an enquiry we send within one working day"}]},
+    {"id": "openness", "label": "Openness", "type": "flags", "items": [
+      {"id": "services", "points": 5, "label": "it publishes its services"},
+      {"id": "prices", "points": 5, "label": "it publishes prices or price ranges"},
+      {"id": "hours", "points": 5, "label": "it publishes its address and opening hours"}]},
+    {"id": "specialist", "label": "Specialist services", "type": "per_item", "points_each": 5, "max_items": 4,
+     "note": "Examples are orthodontics (braces), dental implants, root canal treatment, oral surgery, paediatric dentistry and gum care. A service counts only when a practitioner with a recognised specialist qualification provides it and we have verified that."},
+    {"id": "safety", "label": "Safety and facilities", "type": "flags", "items": [
+      {"id": "autoclave", "points": 2, "label": "it has a working autoclave with instruments kept in sealed packs"},
+      {"id": "xray", "points": 2, "label": "digital X-ray is on site"},
+      {"id": "emergency", "points": 2, "label": "it keeps an emergency kit with oxygen and emergency drugs"},
+      {"id": "power", "points": 2, "label": "it has backup power"},
+      {"id": "quote", "points": 2, "label": "it gives a written treatment plan and price quote before treatment"}],
+     "note": "A check counts only when we have seen evidence, such as a dated photo or video, or we have visited. A clinic's own claim earns nothing."}
+  ]
+}
