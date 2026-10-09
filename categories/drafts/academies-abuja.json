@@ -1,0 +1,133 @@
+{
+  "slug": "academies-abuja",
+  "label": "Schools and academies",
+  "singular": "school",
+  "city": "Abuja",
+  "description": "Schools in Abuja ranked on published and checked results, child safety, teacher qualifications, and clear fees and payment plans.",
+  "min_verified_reviews": 0,
+  "gates": [
+    {
+      "id": "approval",
+      "label": "We have verified its approval from the education authority."
+    },
+    {
+      "id": "visit",
+      "label": "We have visited the school."
+    }
+  ],
+  "measures": [
+    {
+      "id": "outcomes",
+      "label": "Results",
+      "type": "flags",
+      "items": [
+        {
+          "id": "published",
+          "points": 10,
+          "label": "it publishes its exam results for the last three years"
+        },
+        {
+          "id": "checked",
+          "points": 15,
+          "label": "we have checked those results against the exam body's records"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "label": "Child safety",
+      "type": "flags",
+      "items": [
+        {
+          "id": "child_policy",
+          "points": 8,
+          "label": "it has a written policy for adults working with children"
+        },
+        {
+          "id": "fire_exits",
+          "points": 6,
+          "label": "it has marked fire exits and a fire plan"
+        },
+        {
+          "id": "first_aid",
+          "points": 5,
+          "label": "it keeps a first-aid kit and trained staff"
+        },
+        {
+          "id": "supervision",
+          "points": 6,
+          "label": "it has a stated supervision plan for breaks and transport"
+        }
+      ]
+    },
+    {
+      "id": "teachers",
+      "label": "Teachers",
+      "type": "flags",
+      "items": [
+        {
+          "id": "qualified",
+          "points": 8,
+          "label": "its teachers hold teaching qualifications"
+        },
+        {
+          "id": "registered",
+          "points": 7,
+          "label": "its teachers are registered with the Teachers Registration Council of Nigeria"
+        }
+      ]
+    },
+    {
+      "id": "facilities",
+      "label": "Facilities",
+      "type": "flags",
+      "items": [
+        {
+          "id": "classrooms",
+          "points": 4,
+          "label": "classrooms are safe and in good repair"
+        },
+        {
+          "id": "water_power",
+          "points": 3,
+          "label": "it has water and backup power"
+        },
+        {
+          "id": "library_lab",
+          "points": 3,
+          "label": "it has a library or laboratory"
+        }
+      ]
+    },
+    {
+      "id": "fees",
+      "label": "Fees and payment plan",
+      "type": "flags",
+      "items": [
+        {
+          "id": "fee_schedule",
+          "points": 5,
+          "label": "it publishes its full fee schedule"
+        },
+        {
+          "id": "instalments",
+          "points": 5,
+          "label": "it offers a written instalment plan"
+        },
+        {
+          "id": "refund",
+          "points": 5,
+          "label": "it states its refund policy in writing"
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "label": "Verified parent feedback",
+      "type": "rating",
+      "weight": 10,
+      "prior_count": 20,
+      "prior_rating": 4.0
+    }
+  ]
+}

@@ -1,46 +1,161 @@
 [
-  {"slug": "sample-clinic-a", "name": "Sample Clinic A", "area": "Wuse", "location": "Wuse 2, Abuja", "sample": true,
-   "checked": "5 Oct 2026", "gates": {"registration": true},
-   "highlights": ["Orthodontics", "Dental implants", "Root canal"],
-   "why": "Strong ratings, three verified specialist services, full safety evidence.",
-   "inputs": {
-     "rating": {"avg": 4.6, "count": 120, "source": "Google"},
-     "recent": 6,
-     "responsiveness": ["replied", "enquiry"],
-     "openness": ["services", "prices", "hours"],
-     "specialist": ["Orthodontics", "Dental implants", "Root canal"],
-     "safety": ["autoclave", "xray", "emergency", "power", "quote"]}},
-  {"slug": "sample-clinic-b", "name": "Sample Clinic B", "area": "Maitama", "location": "Maitama, Abuja", "sample": true,
-   "checked": "5 Oct 2026", "gates": {"registration": true},
-   "highlights": ["Paediatric dentistry", "Oral surgery"],
-   "why": "Good ratings and recent reviews, fewer specialist services.",
-   "inputs": {
-     "rating": {"avg": 4.3, "count": 86, "source": "Google"},
-     "recent": 6,
-     "responsiveness": ["replied", "enquiry"],
-     "openness": ["services", "hours"],
-     "specialist": ["Paediatric dentistry", "Oral surgery"],
-     "safety": ["autoclave", "xray", "power"]}},
-  {"slug": "sample-clinic-c", "name": "Sample Clinic C", "area": "Garki", "location": "Garki, Abuja", "sample": true,
-   "checked": "5 Oct 2026", "gates": {"registration": true},
-   "highlights": ["Gum care"],
-   "why": "Fewer reviews so far, one specialist service.",
-   "inputs": {
-     "rating": {"avg": 4.0, "count": 31, "source": "Facebook"},
-     "recent": 3,
-     "responsiveness": ["replied"],
-     "openness": ["services", "hours"],
-     "specialist": ["Gum care"],
-     "safety": ["autoclave", "power"]}},
-  {"slug": "sample-clinic-d", "name": "Sample Clinic D", "area": "Wuse", "location": "Wuse, Abuja", "sample": true,
-   "checked": "5 Oct 2026", "gates": {"registration": true},
-   "highlights": ["Dental implants"],
-   "why": "",
-   "inputs": {
-     "rating": {"avg": 4.5, "count": 2, "source": "ranking9ja patients"},
-     "recent": 2,
-     "responsiveness": [],
-     "openness": ["services"],
-     "specialist": ["Dental implants"],
-     "safety": ["autoclave"]}}
+  {
+    "slug": "sample-clinic-a",
+    "name": "Sample Clinic A",
+    "area": "Wuse",
+    "location": "Wuse 2, Abuja",
+    "sample": true,
+    "checked": "5 Oct 2026",
+    "gates": {
+      "registration": true
+    },
+    "highlights": [
+      "Orthodontics",
+      "Dental implants",
+      "Root canal"
+    ],
+    "why": "Strong ratings, three verified specialist services, full safety evidence.",
+    "inputs": {
+      "rating": {
+        "avg": 4.6,
+        "count": 120,
+        "source": "Google"
+      },
+      "recent": 6,
+      "responsiveness": [
+        "replied",
+        "enquiry"
+      ],
+      "openness": [
+        "services",
+        "prices",
+        "hours",
+        "payment_plans"
+      ],
+      "specialist": [
+        "Orthodontics",
+        "Dental implants",
+        "Root canal"
+      ],
+      "safety": [
+        "autoclave",
+        "xray",
+        "emergency",
+        "power",
+        "quote"
+      ]
+    }
+  },
+  {
+    "slug": "sample-clinic-b",
+    "name": "Sample Clinic B",
+    "area": "Maitama",
+    "location": "Maitama, Abuja",
+    "sample": true,
+    "checked": "5 Oct 2026",
+    "gates": {
+      "registration": true
+    },
+    "highlights": [
+      "Paediatric dentistry",
+      "Oral surgery"
+    ],
+    "why": "Good ratings and recent reviews, fewer specialist services.",
+    "inputs": {
+      "rating": {
+        "avg": 4.3,
+        "count": 86,
+        "source": "Google"
+      },
+      "recent": 6,
+      "responsiveness": [
+        "replied",
+        "enquiry"
+      ],
+      "openness": [
+        "services",
+        "hours",
+        "payment_plans"
+      ],
+      "specialist": [
+        "Paediatric dentistry",
+        "Oral surgery"
+      ],
+      "safety": [
+        "autoclave",
+        "xray",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "sample-clinic-c",
+    "name": "Sample Clinic C",
+    "area": "Garki",
+    "location": "Garki, Abuja",
+    "sample": true,
+    "checked": "5 Oct 2026",
+    "gates": {
+      "registration": true
+    },
+    "highlights": [
+      "Gum care"
+    ],
+    "why": "Fewer reviews so far, one specialist service.",
+    "inputs": {
+      "rating": {
+        "avg": 4.0,
+        "count": 31,
+        "source": "Facebook"
+      },
+      "recent": 3,
+      "responsiveness": [
+        "replied"
+      ],
+      "openness": [
+        "services",
+        "hours"
+      ],
+      "specialist": [
+        "Gum care"
+      ],
+      "safety": [
+        "autoclave",
+        "power"
+      ]
+    }
+  },
+  {
+    "slug": "sample-clinic-d",
+    "name": "Sample Clinic D",
+    "area": "Wuse",
+    "location": "Wuse, Abuja",
+    "sample": true,
+    "checked": "5 Oct 2026",
+    "gates": {
+      "registration": true
+    },
+    "highlights": [
+      "Dental implants"
+    ],
+    "why": "",
+    "inputs": {
+      "rating": {
+        "avg": 4.5,
+        "count": 2,
+        "source": "ranking9ja patients"
+      },
+      "recent": 2,
+      "responsiveness": [],
+      "openness": [
+        "services"
+      ],
+      "specialist": [
+        "Dental implants"
+      ],
+      "safety": [
+        "autoclave"
+      ]
+    }
+  }
 ]

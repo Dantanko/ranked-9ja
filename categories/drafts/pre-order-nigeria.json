@@ -1,0 +1,138 @@
+{
+  "slug": "pre-order-nigeria",
+  "label": "Pre-order sellers",
+  "singular": "seller",
+  "city": "Nigeria",
+  "description": "Pre-order sellers ranked on confirmed deliveries, clear deposit and refund terms, and proof the goods are genuine.",
+  "min_verified_reviews": 0,
+  "gates": [
+    {
+      "id": "identity",
+      "label": "We have verified who runs the business."
+    },
+    {
+      "id": "contact",
+      "label": "We have verified its contact details."
+    }
+  ],
+  "measures": [
+    {
+      "id": "deliveries",
+      "label": "Confirmed on-time deliveries",
+      "type": "banded",
+      "bands": [
+        [
+          50,
+          35
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          3,
+          10
+        ]
+      ],
+      "note": "A delivery counts only when the buyer confirms to us that it arrived, and when."
+    },
+    {
+      "id": "payment_terms",
+      "label": "Payment terms",
+      "type": "flags",
+      "items": [
+        {
+          "id": "deposit",
+          "points": 5,
+          "label": "it states the deposit amount before taking payment"
+        },
+        {
+          "id": "balance",
+          "points": 5,
+          "label": "it states when the balance is due"
+        },
+        {
+          "id": "refund_terms",
+          "points": 5,
+          "label": "it states refund terms in writing"
+        },
+        {
+          "id": "receipts",
+          "points": 5,
+          "label": "it issues a receipt for every payment"
+        }
+      ]
+    },
+    {
+      "id": "openness",
+      "label": "Openness",
+      "type": "flags",
+      "items": [
+        {
+          "id": "process",
+          "points": 4,
+          "label": "it explains how its pre-orders work"
+        },
+        {
+          "id": "timelines",
+          "points": 3,
+          "label": "it states delivery timelines"
+        },
+        {
+          "id": "fees",
+          "points": 3,
+          "label": "it states all fees, such as shipping and clearing"
+        }
+      ]
+    },
+    {
+      "id": "sourcing",
+      "label": "Sourcing and authenticity",
+      "type": "flags",
+      "items": [
+        {
+          "id": "supplier",
+          "points": 8,
+          "label": "it shows where its stock comes from"
+        },
+        {
+          "id": "authentic",
+          "points": 7,
+          "label": "it gives proof that items are genuine"
+        }
+      ]
+    },
+    {
+      "id": "refunds",
+      "label": "Refunds honoured",
+      "type": "banded",
+      "bands": [
+        [
+          10,
+          10
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "note": "Refund requests that buyers confirm were paid in full and on time."
+    },
+    {
+      "id": "rating",
+      "label": "Public rating",
+      "type": "rating",
+      "weight": 10,
+      "prior_count": 20,
+      "prior_rating": 4.0
+    }
+  ]
+}

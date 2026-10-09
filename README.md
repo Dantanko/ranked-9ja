@@ -18,3 +18,6 @@ Open `data/<category>.json`, copy one business block, and change it. Only put in
 ## Rules
 - Never put a business's own claim in `inputs`. Only evidence.
 - A business that fails a gate is left out entirely.
+
+## Draft categories
+`categories/drafts/` holds methods that are written but not live (interiors, real estate, pre-order, schools). The build ignores them. To launch one, move its file up into `categories/`, create `data/<slug>.json`, and have someone who knows the field check the measures first.

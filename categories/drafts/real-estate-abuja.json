@@ -1,0 +1,111 @@
+{
+  "slug": "real-estate-abuja",
+  "label": "Real estate developers and agents",
+  "singular": "developer",
+  "city": "Abuja",
+  "description": "Property sellers in Abuja ranked on delivered projects, documents shown before payment, and clear payment plans.",
+  "min_verified_reviews": 0,
+  "gates": [
+    {
+      "id": "registration",
+      "label": "We have verified the company's registration."
+    },
+    {
+      "id": "office",
+      "label": "We have visited its office."
+    },
+    {
+      "id": "no_fraud",
+      "label": "It has no documented, unresolved fraud complaint."
+    }
+  ],
+  "measures": [
+    {
+      "id": "delivered",
+      "label": "Delivered properties",
+      "type": "per_item",
+      "points_each": 6,
+      "max_items": 5,
+      "note": "A property counts only when it has been handed over to a buyer, with title documents, and the buyer confirms it."
+    },
+    {
+      "id": "documents",
+      "label": "Documents shown before payment",
+      "type": "flags",
+      "items": [
+        {
+          "id": "survey_plan",
+          "points": 5,
+          "label": "it shows the survey plan before any payment"
+        },
+        {
+          "id": "title_papers",
+          "points": 5,
+          "label": "it shows the title papers before any payment"
+        },
+        {
+          "id": "price_list",
+          "points": 5,
+          "label": "it publishes a price list"
+        },
+        {
+          "id": "sample_contract",
+          "points": 5,
+          "label": "it shows its sales contract before any payment"
+        }
+      ]
+    },
+    {
+      "id": "payment_terms",
+      "label": "Payment plan and buyer protection",
+      "type": "flags",
+      "items": [
+        {
+          "id": "schedule",
+          "points": 7,
+          "label": "it publishes its full payment plan with every charge"
+        },
+        {
+          "id": "receipts",
+          "points": 6,
+          "label": "it issues a receipt for every payment"
+        },
+        {
+          "id": "refund",
+          "points": 6,
+          "label": "it states in writing when and how a buyer is refunded"
+        },
+        {
+          "id": "no_hidden",
+          "points": 6,
+          "label": "it states every extra fee, such as development or legal fees, before payment"
+        }
+      ]
+    },
+    {
+      "id": "complaints",
+      "label": "Complaint handling",
+      "type": "flags",
+      "items": [
+        {
+          "id": "process",
+          "points": 5,
+          "label": "it has a written complaints process"
+        },
+        {
+          "id": "resolved",
+          "points": 10,
+          "label": "it has resolved every documented complaint we know of"
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "label": "Public rating",
+      "type": "rating",
+      "weight": 10,
+      "prior_count": 20,
+      "prior_rating": 4.0
+    }
+  ]
+}

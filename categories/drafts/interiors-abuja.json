@@ -1,0 +1,113 @@
+{
+  "slug": "interiors-abuja",
+  "label": "Interior designers and fit-out firms",
+  "singular": "firm",
+  "city": "Abuja",
+  "description": "Interior firms in Abuja ranked on verified projects, confirmed by past clients, and clear payment terms.",
+  "min_verified_reviews": 0,
+  "gates": [
+    {
+      "id": "registration",
+      "label": "We have verified the company's registration."
+    },
+    {
+      "id": "address",
+      "label": "We have visited its address."
+    }
+  ],
+  "measures": [
+    {
+      "id": "projects",
+      "label": "Verified projects",
+      "type": "per_item",
+      "points_each": 7,
+      "max_items": 5,
+      "note": "A project counts only when we have checked the photos are the firm's own (not copied), confirmed the date and location, and can reach the client."
+    },
+    {
+      "id": "client_confirmation",
+      "label": "Confirmed by past clients",
+      "type": "per_item",
+      "points_each": 10,
+      "max_items": 2,
+      "note": "We phone past clients ourselves. Each client who confirms the work counts."
+    },
+    {
+      "id": "timelines",
+      "label": "Projects finished on time",
+      "type": "banded",
+      "bands": [
+        [
+          5,
+          10
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "note": "Verified projects delivered within the agreed time."
+    },
+    {
+      "id": "openness",
+      "label": "Openness",
+      "type": "flags",
+      "items": [
+        {
+          "id": "price_ranges",
+          "points": 3,
+          "label": "it publishes price ranges"
+        },
+        {
+          "id": "contract",
+          "points": 4,
+          "label": "it uses a written contract for every project"
+        },
+        {
+          "id": "materials",
+          "points": 3,
+          "label": "it states the materials it uses"
+        }
+      ]
+    },
+    {
+      "id": "payment_terms",
+      "label": "Payment terms",
+      "type": "flags",
+      "items": [
+        {
+          "id": "schedule",
+          "points": 5,
+          "label": "it sets out a milestone payment schedule in writing"
+        },
+        {
+          "id": "receipts",
+          "points": 4,
+          "label": "it issues a receipt for every payment"
+        },
+        {
+          "id": "cancellation",
+          "points": 3,
+          "label": "it states in writing what happens if a project is cancelled"
+        },
+        {
+          "id": "not_full_upfront",
+          "points": 3,
+          "label": "it does not ask for full payment before work starts"
+        }
+      ]
+    },
+    {
+      "id": "rating",
+      "label": "Public rating",
+      "type": "rating",
+      "weight": 10,
+      "prior_count": 20,
+      "prior_rating": 4.0
+    }
+  ]
+}
